@@ -87,7 +87,6 @@ namespace SortingAlgorithms
         /// <returns></returns>
         public List<int> Sort(List<int> list)
         {
-
             for(int i = 0; i < list.Count - 1; i++)
             {
                 for(int j = i + 1; j > 0; j--)
